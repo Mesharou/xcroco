@@ -1,0 +1,13 @@
+xcroco-lops/.DS_Store
+build/lib/xcroco-lops/__init__.py
+build/lib/xcroco-lops/diags.py
+build/lib/xcroco-lops/gridop.py
+build/lib/xcroco-lops/inout.py
+build/lib/xcroco-lops/model.py
+build/lib/xcroco-lops/plot.py
+build/lib/xcroco-lops/tools.py
+xcroco_lops.egg-info/dependency_links.txt
+xcroco_lops.egg-info/PKG-INFO
+xcroco_lops.egg-info/requires.txt
+xcroco_lops.egg-info/SOURCES.txt
+xcroco_lops.egg-info/top_level.txt

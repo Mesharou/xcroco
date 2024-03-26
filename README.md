@@ -22,8 +22,8 @@ Install an appropriate conda-environment:
 
 ```
 conda update -y conda
-conda create -n xcroco -c conda-forge -y python=3.10 
-conda activate xcroco
+conda create -n xcroco-lops-env -c conda-forge -y python=3.10 
+conda activate xcroco-lops-env
 conda install -y -c conda-forge dask dask-jobqueue dask-labextension \
             xarray cf_xarray zarr netcdf4 jupyterlab ipywidgets cartopy \
             geopandas nodejs intake-xarray xgcm numba jupyterhub \
@@ -42,5 +42,5 @@ see also [conda doc](doc/conda.md)
 
 In order to add the environnement to kernels available to jupyter, you need to run:
 ```
-python -m ipykernel install --user --name xcroco --display-name "xcroco"
+python -m ipykernel install --user --name xcroco-lops-env --display-name "xcroco-lops-env"
 ```

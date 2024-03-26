@@ -1,4 +1,4 @@
-XCROCO
+XCROCO-LOPS
 ====== 
 
 
@@ -15,15 +15,11 @@ Download Miniconda3 (i.e. for python3) from the [conda website](https://conda.io
 
 Download the repository:
 ```
-git clone https://gitlab.inria.fr/croco-ocean/croco_tools.git
-cd croco_tools/xcroco
+git clone https://gitlab.inria.fr/croco-ocean/devs/gcambon/xcroco-lops.git
 ```
 
 Install an appropriate conda-environment:
-```
-conda env create -n xcroco -f doc/environment.yml
-```
-or
+
 ```
 conda update -y conda
 conda create -n xcroco -c conda-forge -y python=3.10 
@@ -38,9 +34,9 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              @pyviz/jupyterlab_pyviz \
                              jupyter-leaflet
 ```
-Install the xcroco project in an editable mode in the conda environment
+Install the xcroco-lops project in the conda environment
 ```
-cd croco-tools/xcroco; pip install -e .
+pip install .
 ```
 see also [conda doc](doc/conda.md)
 
@@ -48,10 +44,3 @@ In order to add the environnement to kernels available to jupyter, you need to r
 ```
 python -m ipykernel install --user --name xcroco --display-name "xcroco"
 ```
-
-
-Tutorials:
-=========
-You can find tutorials in the directory:
-. tuto_xcroco.ipynb : several tools/diagnostics available in the library
-. tuto_movie.ipynb : a way to make a movie

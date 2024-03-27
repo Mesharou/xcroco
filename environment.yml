@@ -1,0 +1,38 @@
+name: xcroco-lops-env
+channels:
+- conda-forge
+dependencies:
+- cartopy
+- cartopy_offlinedata
+- cmocean
+- matplotlib
+- dask
+- dask-jobqueue
+- dask-labextension
+- ffmpeg
+- geopandas
+- geoviews
+- h5netcdf
+- h5py
+- hvplot
+- intake-xarray
+- ipywidgets
+- jupyterhub
+- jupyterlab
+- memory_profiler
+- netcdf4
+- nodejs
+- numba
+- pangeo-notebook
+- pyamg
+- pyinterp
+- python=3.10
+- wxpython
+- xarray
+- cf_xarray
+- xgcm
+- xrft
+- xwrf
+- zarr
+- kerchunk
+

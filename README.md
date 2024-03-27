@@ -19,21 +19,12 @@ git clone https://gitlab.inria.fr/croco-ocean/devs/gcambon/xcroco-lops.git
 ```
 
 Install an appropriate conda-environment:
-
 ```
-conda update -y conda
-conda create -n xcroco-lops-env -c conda-forge -y python=3.10 
+cd xcroco-lops
+conda env create -f environment.yml
 conda activate xcroco-lops-env
-conda install -y -c conda-forge dask dask-jobqueue dask-labextension \
-            xarray cf_xarray zarr netcdf4 jupyterlab ipywidgets cartopy \
-            geopandas nodejs intake-xarray xgcm numba jupyterhub \
-            kerchunk pyamg xrft \
-            ffmpeg memory_profiler
-            
-jupyter labextension install @jupyter-widgets/jupyterlab-manager \
-                             @pyviz/jupyterlab_pyviz \
-                             jupyter-leaflet
 ```
+
 Install the xcroco-lops project in the conda environment
 ```
 pip install .

@@ -8,7 +8,7 @@ from pyamg.util.linalg import norm
 
 import xrft
 
-import gridop as gop
+from xcrocolops import gridop as gop
 
 ###################################################
 

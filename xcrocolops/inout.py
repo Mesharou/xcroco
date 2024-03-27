@@ -11,7 +11,7 @@ import os.path as path
 import itertools
 from collections import OrderedDict
 
-import gridop as gop
+from xcrocolops import gridop as gop
 
 def open_files(model, gridname, filenames, 
                grid_metrics=2,

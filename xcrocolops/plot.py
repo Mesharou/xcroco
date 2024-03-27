@@ -27,8 +27,8 @@ from datetime import datetime
 
 
 
-import gridop as gop
-from tools import dask_compute_batch
+from xcrocolops import gridop as gop
+from xcrocolops.tools import dask_compute_batch
 
 # -------------------------------- Colormap -------------------------------
 

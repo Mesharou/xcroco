@@ -12,7 +12,7 @@ from collections import OrderedDict
 
 from math import radians, cos, sin, asin, sqrt
 
-import inout as io
+from xcrocolops import inout as io
 
 def get_cs(model, ds, gd, vgrid):
     """get croco vertical grid  stretching

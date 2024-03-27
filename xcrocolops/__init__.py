@@ -1,5 +1,5 @@
 """
-xcroco-lops
+xcrocolops
 
 Python post-processing for Croco, based on xgcm.
 """

@@ -7,11 +7,11 @@ def read(fname):
 
 
 setup(
-    name='xcroco-lops',
+    name='xcrocolops',
     version='0.0.1',    
     description='Python post-processing for Croco, based on xgcm',
     author='Sylvie Le Gentil',
-    packages=['xcroco-lops'],
+    packages=['xcrocolops'],
     long_description=read('README.md'),
 
     install_requires=['dask',
